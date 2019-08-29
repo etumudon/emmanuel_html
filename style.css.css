@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 15px;
+    font-family: arial, san-serif;
+    line-height:1.6em;
+}
+ul{
+    list-style-type: none;
+}
+
+.container{
+    width:70%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    margin-top: 50px;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#branding h1{
+font-size:35px;
+color: #000;
+}
+
+header nav ul li{
+    float: left;
+    padding: 0 20px 0 20px;
+}
+
+header nav ul li: last-child{
+    padding-right: 0;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #070707;
+}
+
+header nav ul li a:hover{
+    text-decleration: underline;
+}
+
+#hero-area{
+    margin-top: 85px;
+}
+
+#hero-area .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#hero-area h3{
+    font-size: 25px;
+    color:black;
+    margin-bottom: 35px;
+}
+
+#hero-area #hero-text{
+    width: 50%;
+}
+
+.hero-bold{
+    font-weight: bold;
+    margin-right: 10px;
+}
+#hero-contact p{
+    margin-top: 10px;
+}
+
+#keycompetencies .container{
+    border-top: 1px solid #010101;
+    border-bottom: 1px solid #010101;
+    padding: 90px 0 90px 0;
+    margin: 90px auto 90px auto;
+}
+
+#keycompetencies h2, #education h2, #contact h2{
+    font-size: 35px;
+    font-weight: bold;
+    color:black;
+}
+
+#keycompetencies h3, #education h3{
+margin-top: 50px;
+color: #444;
+font-size: 20px;
+font-weight: bold;
+}
+
+#keycompetencies p, #education p{
+margin-top: 15px;
+line-height: 1.5em;
+}
+
+#education .container{
+padding-bottom: 90px;
+margin-bottom: 90px;
+border-bottom:1px solid #010101;
+}
+
+/* Contact Area */
+
+#contact form{
+    margin-top: 55px;
+}
+
+#contact form input{
+    width: 47%;
+    height:45px;
+    border: 1px solid #bcbcbc;
+    padding-left: 10px;
+    color: #070707;
+    font-size: 14px;
+}
+
+#contact .input-details{
+    display: flex;
+    justify-content:vspace-between;
+}
+
+#contact form textarea{
+    margin-top: 18px;
+    width: 97%;
+    padding-left:10px;
+    padding-top: 10px;
+    color: #070707;
+    font size: 14px;
+}
+
+#contact form .form-bottom{
+    width: 98%;
+    cursor: pointer;
+    background-color: #3b3b3b;
+    color:white;
+}
+
+/* Footer Area */
+
+footer{
+    margin-top: 150px;
+    padding: 25px;
+    border-top:1px solid #010101;
+    color: #aabbaa;
+    font-size: 14px;
+}
